@@ -57,9 +57,7 @@ public class LauncherActivity extends ListActivity {
 			case 5:
 				intent = new Intent(this, PullToRefreshHorizontalScrollViewActivity.class);
 				break;
-			case 6:
-				intent = new Intent(this, PullToRefreshViewPagerActivity.class);
-				break;
+		//
 			case 7:
 				intent = new Intent(this, PullToRefreshListFragmentActivity.class);
 				break;
